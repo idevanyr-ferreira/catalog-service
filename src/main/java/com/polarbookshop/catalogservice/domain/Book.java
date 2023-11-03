@@ -13,7 +13,7 @@ public record Book(
     )
     String isbn,
 
-    @NotBlank(message = "The book title must be defined.")
+    @NotBlank(message = "The book title must be defined..")
     String title,
 
     @NotBlank(message = "The book author must be defined.")
